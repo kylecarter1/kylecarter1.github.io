@@ -6,7 +6,7 @@ theme = 'smol'
 # Parameters
 [params]
     subtitle = "26 year old boomer yelling at clouds!"
-    dateFmt = "02.01.2006 15:04"
+    dateFmt = "2006-01-02"
 
 # Header
 [menu]
