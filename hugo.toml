@@ -1,0 +1,41 @@
+baseURL = 'https://github.com/kylecarter1/kylecarter1.github.io'
+languageCode = 'en-us'
+title = "Kyle's Website"
+theme = 'smol'
+
+# Parameters
+[params]
+    subtitle = "26 year old boomer yelling at clouds!"
+    dateFmt = "02.01.2006 15:04"
+
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 1 
+
+  [[menu.main]]
+        identifier = "categories"
+        name = "Categories"
+        url = "/categories/"
+        weight = 2 
+
+  [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 3
+
+# Footer
+  [[menu.footer]]
+        name = "Github"
+        url = "https://github.com/kylecarter1"
+        weight = 1 
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
